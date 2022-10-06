@@ -1,0 +1,11 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÉÕ¤§
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÉÕ¤§8ÜÕÔõ¸0
+r
+java:S1192"UDefine a constant instead of duplicating this literal "Operacion no valida " 3 times.(ÉÕ¤§8ÜÕÔõ¸0
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ò¿Ëš
+P
+java:S1874!"3Remove this use of "newInstance"; it is deprecated.(©¢´ú8–âÂõ¸0
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ˆòÆ8ƒãÁõ¸0
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Òû‚ùÿÿÿÿ8ƒãÁõ¸0
