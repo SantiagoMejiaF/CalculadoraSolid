@@ -1,0 +1,2 @@
+# solidCalculator
+CalculadoraSOLID
