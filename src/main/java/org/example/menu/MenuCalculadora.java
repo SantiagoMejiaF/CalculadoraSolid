@@ -34,16 +34,10 @@ public class MenuCalculadora {
                 Scanner numero2 = new Scanner(System.in);
                 num1 = numero1.nextInt();
                 num2 = numero2.nextInt();
+
+                System.out.println("El resultado es " + facade.ejecutarOperacionBinaria(opcion, new BigInteger(String.valueOf(num1)),
+                        new BigInteger(String.valueOf(num2))));
             }
-
-            System.out.println("El resultado es " + facade.ejecutarOperacionBinaria(opcion, new BigInteger(String.valueOf(num1)),
-                    new BigInteger(String.valueOf(num2))));
-
-
-
-
-
-
 
             //System.out.println("El resultado de la operacion es " + operacionBinaria.realizarOperacion(new BigInteger(String.valueOf(num1)), new BigInteger(String.valueOf(num2))));
         } while (!opcion.equalsIgnoreCase("Salir"));
