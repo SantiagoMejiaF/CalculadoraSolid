@@ -2,6 +2,7 @@ package org.example.operaciones;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.util.function.BiFunction;
 
 public class OperacionPotencia implements OperacionBinaria{
 
