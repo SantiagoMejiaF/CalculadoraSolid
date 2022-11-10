@@ -7,7 +7,9 @@ public class OperacionPotencia implements OperacionBinaria{
 
     private BigDecimal realizarPotencia(BigInteger num1, BigInteger num2)
     {
-        return new BigDecimal(num1.pow(num2.intValue()));
+        BiFunction<BigInteger, BigInteger, BigDecimal> potenciar = (n1, n2) ->
+                new BigDecimal(n1.pow(n2.intValue()));
+        return potenciar.apply(num1, num2);
     }
 
     @Override
